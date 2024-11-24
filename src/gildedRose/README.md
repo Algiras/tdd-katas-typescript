@@ -1,4 +1,4 @@
-# GildedRose Kata Problem 
+# GildedRose Kata Kata 
 
 ## Description
 
@@ -31,3 +31,39 @@ Implement a system to update the quality of items in a store based on specific r
     - Quality is never negative.
     - Quality never exceeds 50 (except for "Sulfuras").
     - System should handle invalid or unexpected input gracefully.
+
+Initial code:
+~~~typescript
+/**
+ * Represents an item in the GildedRose store.
+ */
+export class Item {
+  constructor(
+    public name: string,
+    public sellIn: number,
+    public quality: number,
+  ) {}
+}
+
+/**
+ * GildedRose class that updates the quality of items based on the given rules.
+ */
+export class GildedRose {
+  constructor(public items: Item[] = []) {}
+
+  updateQuality(): Item[] {
+    return [];
+  }
+}
+~~~
+
+Initial tests:
+~~~typescript
+import { GildedRose, Item } from "../../src/gildedRose/gildedRose";
+
+describe("GildedRose", () => {
+    it("should be true", () => {
+        expect(true).toBe(true);
+    });
+});
+~~~

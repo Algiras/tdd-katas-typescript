@@ -5,8 +5,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
   "include": ["src/**/*"],
