@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Normal Item",
+    "initialSellIn": 5,
+    "initialQuality": 10,
+    "days": 1,
+    "expectedSellIn": 4,
+    "expectedQuality": 9
+  },
+  {
+    "name": "Normal Item",
+    "initialSellIn": 0,
+    "initialQuality": 10,
+    "days": 1,
+    "expectedSellIn": -1,
+    "expectedQuality": 8
+  },
+  {
+    "name": "Aged Brie",
+    "initialSellIn": 2,
+    "initialQuality": 0,
+    "days": 2,
+    "expectedSellIn": 0,
+    "expectedQuality": 2
+  },
+  {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "initialSellIn": 0,
+    "initialQuality": 80,
+    "days": 1,
+    "expectedSellIn": 0,
+    "expectedQuality": 80
+  },
+  {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "initialSellIn": 15,
+    "initialQuality": 20,
+    "days": 5,
+    "expectedSellIn": 10,
+    "expectedQuality": 25
+  },
+  {
+    "name": "Conjured Mana Cake",
+    "initialSellIn": 3,
+    "initialQuality": 6,
+    "days": 2,
+    "expectedSellIn": 1,
+    "expectedQuality": 2
+  }
+]
